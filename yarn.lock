@@ -1345,7 +1345,7 @@ fraction.js@^4.2.0:
 
 framer-motion@^10.12.18:
   version "10.12.18"
-  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-10.12.18.tgz"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.12.18.tgz#92015860b6468a82e76c4739fcae81e1f6723b3f"
   integrity sha512-cfhiUpPbj+0eEWKjuD+5cz5cMqH71xOtMxGiS/cSGfHn2OlHIEAqFnFyzEMENw5PxWR9bMVhatzzpD6lexmHZQ==
   dependencies:
     tslib "^2.4.0"
@@ -2210,7 +2210,7 @@ react-use-measure@^2.1.1:
 
 react-vertical-timeline-component@^3.6.0:
   version "3.6.0"
-  resolved "https://registry.npmjs.org/react-vertical-timeline-component/-/react-vertical-timeline-component-3.6.0.tgz"
+  resolved "https://registry.yarnpkg.com/react-vertical-timeline-component/-/react-vertical-timeline-component-3.6.0.tgz#aeb4b56be3f397b493c847df79521f3bfb3aab71"
   integrity sha512-l9zulqjIGlRuaQeplGzV4r/tG2RYBpYt84Il8w4IxnJze2cDIGI04MKo3F7f1sHT0Sih1ohEFts8UV23AJS15Q==
   dependencies:
     classnames "^2.2.6"
