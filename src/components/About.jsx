@@ -1,5 +1,8 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import ReactDOM from 'react-dom';
 import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 
