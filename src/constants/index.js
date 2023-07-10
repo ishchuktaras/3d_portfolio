@@ -12,10 +12,11 @@ import {
   git,
   figma,
   itstep,
+  js_mastery,
   nfu,
-  carrent,
-  jobit,
-  tripguide,
+  hoobank,
+  restaurant,
+  nfu_,
   threejs,
 } from "../assets";
 
@@ -104,22 +105,20 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2021 - February 2022",
     points: [
-      "Developing web sites using HTML, CSS, Bootstrap, JavaScript, jQuery and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing websites using HTML, CSS, Bootstrap, JavaScript, jQuery and other related technologies.",
+      "While studying the program of the Front-end course implemented responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "React.js Developer",
-    company_name: "NFU Ukraine",
-    icon: nfu,
+    company_name: "JS Mastery",
+    icon: js_mastery,
     iconBg: "#383E56",
     date: "September 2022 - March 2023",
     points: [
-      "Developing and maintaining web application using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing websites using React.js and Tailwind CSS technologies.",
+      "While studying the program of the JS Mastery video courses implemented responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -130,7 +129,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "April 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining website using Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -180,37 +179,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HooBank ",
+    course_description:
+      "(JS Mastery courses)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Modern UI/UX website template using React.js & Tailwind CSS",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hoobank,
+    source_code_link: "https://github.com/ishchuktaras/bank_modern_app",
   },
   {
-    name: "Job IT",
+    name: "Geriht Restaurant",
+    course_description:
+      "(JS Mastery courses)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Modern UI/UX Restaurant Landing Page Website template",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS BEM Model",
+        color: "green-text-gradient",
+      },
+    ],
+    image: restaurant,
+    source_code_link: "https://github.com/ishchuktaras/gerich-restaurant-master",
+  },
+  {
+    name: "NFU Ukraine",
+    description:
+      "Modern art through history. Web site represents the modern art of Ukrainian artists during the resistance of the Ukrainian people against the aggression of the Russian Federation",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
         color: "green-text-gradient",
       },
       {
@@ -218,29 +234,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nfu_,
+    source_code_link: "https://www.nfuua.space/",
   },
 ];
 

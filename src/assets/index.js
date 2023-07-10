@@ -20,10 +20,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import itstep from "./company/itstep.svg";
+import js_mastery from "./company/js_mastery.svg";
 import nfu from "./company/nfu.svg";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import hoobank from "./hoobank.png";
+import nfu_ from "./nfu_.png"
+import restaurant from "./restaurant.png";
 
 export {
   logo,
@@ -48,8 +49,9 @@ export {
   typescript,
   threejs,
   itstep,
+  js_mastery,
   nfu,
-  carrent,
-  jobit,
-  tripguide,
+  nfu_,
+  hoobank,
+  restaurant,
 };
