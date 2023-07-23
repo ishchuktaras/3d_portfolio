@@ -23,7 +23,8 @@ import itstep from "./company/itstep.svg";
 import js_mastery from "./company/js_mastery.svg";
 import nfu from "./company/nfu.svg";
 import hoobank from "./hoobank.png";
-import nfu_ from "./nfu_.png"
+import nfu_ from "./nfu_.png";
+import mysun from "./mysun.png";
 import restaurant from "./restaurant.png";
 
 export {
@@ -52,6 +53,7 @@ export {
   js_mastery,
   nfu,
   nfu_,
+  mysun,
   hoobank,
   restaurant,
 };
