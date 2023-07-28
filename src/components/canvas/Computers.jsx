@@ -11,7 +11,7 @@ const Computers = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
-        position={[-145, 15, 45]}
+        position={[-35, 15, 25]}
         angle={-1}
         penumbra={1}
         intensity={0.04}
@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 1 : 2}
-        position={isMobile ? [0, -3, -2.2] : [0.2, -3.7, -0.2]}
+        position={isMobile ? [0, -2.5, -0.3] : [0.2, -3.7, -0.2]}
         rotation={[0, 0, -0.3]}
       />
     </mesh>
@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 425px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
